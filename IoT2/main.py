@@ -1,7 +1,7 @@
 from moduler.ultrasonisk_sensor import getHCSRdata
 from moduler.imu_accelerometer import imu
 from moduler.rgb_led import setup_led
-from logger import logmain1, logmain2
+from moduler.logger import logmain1, logmain2
 import moduler.GPS
 import RPi.GPIO as GPIO
 import time
