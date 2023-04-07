@@ -8,10 +8,6 @@ device_address = 0x49
 
 i2c_bus = smbus.SMBus(i2c_bus_number)
 
-#findes ved at tage en måling på sit batteri, kaldet U
-#U*1023/adc_val = u_num
-u_num = 16.5
-
 def bat_funktion():
     adc_bytes = i2c_bus.read_i2c_block_data(device_address, 0x00, 2)
     
