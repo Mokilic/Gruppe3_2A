@@ -41,12 +41,6 @@ def getHCSRdata():
         percentage = 0
     elif percentage > 100:
         percentage = 100
-    
-    # Return the percentage value if the tank is closed, otherwise return None
-    # if låg_status == "lukket":
-    #     return percentage
-    # else:
-    #     return None
 
     return percentage
 
