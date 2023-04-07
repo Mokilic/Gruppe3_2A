@@ -43,6 +43,3 @@ def getHCSRdata():
         percentage = 100
 
     return percentage
-
-
-# percentage = getHCSRdata()
