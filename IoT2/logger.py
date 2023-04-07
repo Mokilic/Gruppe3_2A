@@ -38,16 +38,6 @@ def logdata2(a, b, c):
     conn.close()
 
 
-# def logmain2():
-#     gps_port = "/dev/serial0"
-#     ser = moduler.GPS.port_setup(gps_port)
-#     gps_coords = moduler.GPS.parseGPSdata(ser)
-#     adc_value = bat_funktion()
-#     a = gps_coords[0]
-#     b = gps_coords[1]
-#     c = adc_value
-#     logdata2(a, b, c)
-
 def logmain2():
     gps_port = "/dev/serial0"
     ser = moduler.GPS.port_setup(gps_port)
