@@ -22,7 +22,3 @@ def bat_funktion():
  
 
     return adc_val
-
-# adc_value = bat_funktion()
-
-# print(adc_value)
